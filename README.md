@@ -1,9 +1,8 @@
 # Interview React App
 
-## Checkout the repostiry
+## Setup
  
- - `git clone git@github.com:jurahu/interview-vite.git`
- - `npm i`
+`git clone git@github.com:jurahu/interview-vite.git && cd interview-vite && npm i`
 
 ## Warmup
 
