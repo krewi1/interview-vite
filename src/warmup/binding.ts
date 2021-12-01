@@ -1,13 +1,21 @@
 // What is it printing out and why?
+// What is the fix?
 
-var hero = {
-  _name: 'John Doe',
-  getSecretIdentity: function (){
-      return this._name;
+class Hero {
+  private _name: string;
+  constructor() {
+    this._name = "John Doe";
   }
-};
 
-var stoleSecretIdentity = hero.getSecretIdentity;
+  getSecretIdentity() {
+    return this._name;
+  }
+}
 
-console.log(stoleSecretIdentity());
-console.log(hero.getSecretIdentity());
+export function binding() {
+  var hero = new Hero();
+
+  var stoleSecretIdentity = hero.getSecretIdentity;
+  console.log(stoleSecretIdentity());
+  console.log(hero.getSecretIdentity());
+}
