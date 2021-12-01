@@ -9,10 +9,11 @@
 
 Choose two warmups or even create your own to show us scoping fun and event loop fixing
 
- 1. Refactor promise <-> async/await
- 2. Why the timeouts are out of order?
- 3. What the heck
-
+ 1. Refactor promise -> async/await
+ 2. Refactor async/await -> promise
+ 3. Why the timeouts are out of order?
+ 4. Binding issues
+ 5. Fun with iterator fail and scoping
 ## Write a tree component
 
  - Junior developer got stuck with implementing a tree component,
