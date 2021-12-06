@@ -1,6 +1,5 @@
 import { useState } from 'react'
-import logo from './logo.svg'
-import './App.css'
+import Tree from './components/Tree';
 import exampleTree from './data/exampleTree';
 
 function App() {
@@ -8,7 +7,7 @@ function App() {
 
   return (
     <div className="App">
-     {/* <Tree data={treeData}/> */}
+     <Tree tree={treeData}/>
     </div>
   )
 }
