@@ -1,10 +1,10 @@
 export interface TreeType {
-  id: Number;
-  name: String;
+  id: number;
+  name: string;
   nodes?: TreeType[];
 }
 
-const exampleTree: TreeType = {
+const exampleTree: TreeType[] = [{
   id: 1,
   name: "Root",
   nodes: [
@@ -43,6 +43,6 @@ const exampleTree: TreeType = {
       ],
     },
   ],
-};
+}];
 
 export default exampleTree;
