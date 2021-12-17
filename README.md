@@ -2,7 +2,7 @@
 
 ## Setup
  
-`git clone git@github.com:jurahu/interview-vite.git && cd interview-vite && npm i`
+`git clone https://github.com/jurahu/interview-vite.git && cd interview-vite && npm i`
 
 ## Warmup
 
