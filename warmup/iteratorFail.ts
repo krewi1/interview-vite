@@ -1,4 +1,3 @@
-// This is a bit tricky focus on scoping
 // What is it printing and why?
 
 function iteratorFail() {
