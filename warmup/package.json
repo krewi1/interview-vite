@@ -1,0 +1,22 @@
+{
+  "name": "warmup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "binding": "node --loader ts-node/esm ./binding",
+    "promise": "node --loader ts-node/esm ./promise",
+    "async": "node --loader ts-node/esm ./async",
+    "iteratorFail": "node --loader ts-node/esm ./iteratorFail",
+    "timeout": "node --loader ts-node/esm ./timeout"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^3.2.10",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.3"
+  }
+}
