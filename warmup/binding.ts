@@ -19,7 +19,7 @@ class Hero {
 (() => {
   const hero = new Hero();
 
-  const stoleSecretIdentity = hero.getSecretIdentity.bind(hero);
+  const stoleSecretIdentity = hero.getSecretIdentity;
   const stoleLambdaSecretIdentity = hero.getLambdaSecretIdentity;
   console.log(stoleSecretIdentity());
   console.log(hero.getSecretIdentity());
